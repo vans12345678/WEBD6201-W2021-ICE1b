@@ -32,32 +32,9 @@
         newParagraph.className = "fs-6";
 
         //Another way of injecting content`
-        let paragraphDiv = document.createElement('div');
-        let paragraphThree =  `<p id = "paragraphThree" class = "fs-7 fw-bold">...And this is the Third paragraph</p>`;
-        paragraphDiv.innerHTML = paragraphThree;
+        // let paragraphThree =  `<p class = "fs-7 fw-bold">...And this is the Third paragraph</p>`;
         // mainContent.innerHTML = paragraphThree;
         // console.log(paragraphOneElement);
-
-        //insertion before node
-        //newParagraph.before(paragraphDiv);
-
-        //insertion after node
-        newParagraph.after(paragraphDiv);
-
-        //deletions
-        //example of removing a single element
-        //paragraphOneElement.remove();
-
-        //example of removeChild
-        mainContent.removeChild(paragraphOneElement);
-
-        //update / modification
-        //mainContent.firstElementChild.textContent = "Welcome home";
-
-        mainContent.innerHTML =
-        `<h1 id = "firstHeading">Welcome to WEBD6201 - Lab 1</h1>
-        <p id = "paragraphOne" class = "fs-3 fw-bold">This is my first paragraph</p>
-        `;
 
 
     }

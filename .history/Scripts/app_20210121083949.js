@@ -56,7 +56,7 @@
 
         mainContent.innerHTML =
         `<h1 id = "firstHeading">Welcome to WEBD6201 - Lab 1</h1>
-        <p id = "paragraphOne" class = "fs-3 fw-bold">This is my first paragraph</p>
+        <p id = "paragraphOne" class = "fs-3 fw-bold"></p>
         `;
 
 
