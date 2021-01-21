@@ -48,7 +48,7 @@
         //paragraphOneElement.remove();
 
         //example of removeChild
-        //mainContent.removeChild(paragraphOneElement);
+        mainContent.removeChild(paragraphOneElement);
 
         //update / modification
         //mainContent.firstElementChild.textContent = "Welcome home";

@@ -8,9 +8,12 @@
 
 (function(){
 
-    function displayHome()
+    function Start()
     {
-        
+        console.log("App Started...");
+
+        console.log(document.title);
+        /*
         let paragraphOneText = "This is a simple site to demonstrate DOM Manipulation for ICE 1"; 
         let paragraphOneElement = document.getElementById("paragraphOne");
         
@@ -48,7 +51,7 @@
         //paragraphOneElement.remove();
 
         //example of removeChild
-        //mainContent.removeChild(paragraphOneElement);
+        mainContent.removeChild(paragraphOneElement);
 
         //update / modification
         //mainContent.firstElementChild.textContent = "Welcome home";
@@ -57,47 +60,7 @@
         `<h1 id = "firstHeading">Welcome to WEBD6201 - Lab 1</h1>
         <p id = "paragraphOne" class = "fs-3 fw-bold">This is my first paragraph</p>
         `;
-        
-    }
-    function displayAbout()
-    {
-        
-    }
-    function displayProjects()
-    {
-        
-    }
-    function displayServices()
-    {
-        
-    }
-    function displayContact()
-    {
-        
-    }
-    function Start()
-    {
-        console.log("App Started...");
-
-        switch(document.title)
-        {
-            case "Home":
-                displayHome();
-                break;
-            case "About":
-                displayAbout();
-                break;
-            case "Projects":
-                displayProjects();  
-                break;
-            case "Services":
-                displayServices();  
-                break;   
-            case "Contact":
-                displayContact();  
-                break; 
-        }
-        
+        */
 
     }
 

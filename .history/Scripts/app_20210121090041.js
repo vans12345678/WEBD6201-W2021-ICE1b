@@ -48,7 +48,7 @@
         //paragraphOneElement.remove();
 
         //example of removeChild
-        //mainContent.removeChild(paragraphOneElement);
+        mainContent.removeChild(paragraphOneElement);
 
         //update / modification
         //mainContent.firstElementChild.textContent = "Welcome home";
@@ -81,19 +81,19 @@
 
         switch(document.title)
         {
-            case "Home":
+            case 'Home':
                 displayHome();
                 break;
-            case "About":
+            case 'About':
                 displayAbout();
                 break;
-            case "Projects":
+            case 'Projects':
                 displayProjects();  
                 break;
-            case "Services":
+            case 'Services':
                 displayServices();  
                 break;   
-            case "Contact":
+            case 'Contact':
                 displayContact();  
                 break; 
         }
