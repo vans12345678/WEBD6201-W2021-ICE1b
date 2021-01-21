@@ -91,7 +91,6 @@
             }
             else
             {
-                messageArea.removeAttribute("class");
                 messageArea.hidden = true;
             }
             
