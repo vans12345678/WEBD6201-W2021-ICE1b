@@ -31,10 +31,9 @@
 
         newParagraph.className = "fs-6";
 
-        //Another way of injecting content`
-        // let paragraphThree =  `<p class = "fs-7 fw-bold">...And this is the Third paragraph</p>`;
-        // mainContent.innerHTML = paragraphThree;
-        // console.log(paragraphOneElement);
+        let paragraphThree =  `<p class = "fs-7 fw-bold">...And this is the Third paragraph</p>`;
+
+        console.log(paragraphOneElement);
 
 
     }

@@ -24,17 +24,10 @@
         //Step 2. Configure the element
         newParagraph.setAttribute("id", "paragraphTwo");
         newParagraph.textContent = "... And this is paragraph two";
-        //Step 3. Select parent element
-        let mainContent = document.getElementsByTagName("main")[0];
-        //Step 4. Add / Insert the element
-        mainContent.appendChild(newParagraph);
+        //Step 3. Add / Insert the element
+        let maiNContent = document.getElementsByTagName("main")[0];
 
-        newParagraph.className = "fs-6";
-
-        //Another way of injecting content`
-        // let paragraphThree =  `<p class = "fs-7 fw-bold">...And this is the Third paragraph</p>`;
-        // mainContent.innerHTML = paragraphThree;
-        // console.log(paragraphOneElement);
+        console.log(paragraphOneElement);
 
 
     }
