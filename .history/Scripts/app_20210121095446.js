@@ -101,6 +101,8 @@
                 console.log(fullName.value);
                 console.log(contactNumber.value);
                 console.log(emailAddress.value);
+
+
                 
             })
         })

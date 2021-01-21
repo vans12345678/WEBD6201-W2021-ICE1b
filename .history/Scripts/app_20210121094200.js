@@ -73,11 +73,8 @@
     }
     function displayContact()
     {
-
-        let messageArea = document.getElementById("messageArea");
-        messageArea.hidden = true;
-
         //form validation
+
         let fullName = document.getElementById("fullName");
         fullName.addEventListener("blur", function()
         {
@@ -85,24 +82,7 @@
             {
                 fullName.focus();
                 fullName.select();
-                messageArea.hidden = false;
-                messageArea.textContent = "Please enter an appropriate name > 2 characters";
             }
-            else
-            {
-                messageArea.hidden = true;
-            }
-            
-            let sendButton = document.getElementById("sendButton");
-            sendButton.addEventListener("click", function(event)
-            {
-                event.preventDefault();
-
-                console.log(fullName.value);
-                console.log(contactNumber.value);
-                console.log(emailAddress.value);
-                
-            })
         })
     }
     function Start()
@@ -123,7 +103,7 @@
             case "Services":
                 displayServices();  
                 break;   
-            case "Contact Us":
+            case "Contact":
                 displayContact();  
                 break; 
         }

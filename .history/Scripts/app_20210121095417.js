@@ -98,9 +98,11 @@
             {
                 event.preventDefault();
 
-                console.log(fullName.value);
-                console.log(contactNumber.value);
-                console.log(emailAddress.value);
+                // console.log(fullName.value);
+                // console.log(contactNumber.value);
+                // console.log(emailAddress.value);
+
+
                 
             })
         })
