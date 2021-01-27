@@ -114,7 +114,7 @@ var Contact = /** @class */ (function () {
             let sendButton = document.getElementById("sendButton");
             sendButton.addEventListener("click", function(event)
             {
-                event.preventDefault();
+                // event.preventDefault();
                 // //Displays twice?
                 // console.log(fullName.value);
                 // console.log(contactNumber.value);
@@ -122,7 +122,7 @@ var Contact = /** @class */ (function () {
 
                 let contact = new Contact(fullName.value,contactNumber.value, emailAddress.value);
 
-                console.log(contact.toString());
+                console.log(contact.toString);
                 
             })
         })
